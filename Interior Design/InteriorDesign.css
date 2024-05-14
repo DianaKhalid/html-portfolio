@@ -1,0 +1,76 @@
+
+html,body, header{ 
+    background-image: url(images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.logo{
+    height: 130px;
+    width: 130px;
+    display: flex;
+
+}
+.menu{
+    display: flex;
+    padding:50px 600px;
+    
+}
+a{
+    padding: 0px 20px;
+    color: black;
+    font-size: 20px ;
+    background:rgba(216, 213, 207, 0.795);
+    border-radius:10px ;
+    margin: 0px 10px; 
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    color: black bold;
+}
+p{
+    text-align: center;
+    color: black bold;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+    text-align: center;
+}
+
+button{
+    background:transparent;
+    text-align: center;
+    border-radius: 20px ;
+    padding: 10px 0;
+    width: 200px;
+    font-family: monospace ;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+span{
+    background: blueviolet;
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: .5s;
+
+}
+button:hover span{
+width: 100%;    
+}
+button:hover{
+border:none ;     
+}
